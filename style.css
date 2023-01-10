@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    min-height: 100vh;
+    background: hsl(0, 0%, 95%);
+    Font-size: 15px;
+}
+
+.row{
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+}
+
+.car-1{
+    background: hsl(31, 77%, 52%);
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+}
+
+.car-2{
+    background: hsl(184, 100%, 22%);
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+}
+
+.car-3{
+    background: hsl(179, 100%, 13%);
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+}
+
+.car-section{
+    margin: 0px 20px 0px 20px;
+}
+
+.car-name{
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    font-weight: 400;
+}
+
+p.car-description{
+    padding-bottom: 4rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+    padding-top: 1rem;
+}
+
+.btn{
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 4rem;
+}
+
+.btn-1{
+    color: hsl(31, 77%, 52%);
+}
+
+.btn-2{
+    color: hsl(184, 100%, 22%);
+}
+
+.btn-3{
+    color: hsl(179, 100%, 13%);
+}
+
+.btn-1:hover{
+    color: hsl(0, 0%, 95%);
+    border-color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+}
+
+.btn-2:hover{
+    color: hsl(0, 0%, 95%);
+    border-color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+}
+
+.btn-3:hover{
+    color: hsl(0, 0%, 95%);
+    border-color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+}
+
+.attribution { padding-top: 1rem; font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
